@@ -1,0 +1,10 @@
+COPY dim_date       FROM '/absolute/path/data/raw/dim_date.csv'       CSV HEADER;
+COPY dim_factory    FROM '/absolute/path/data/raw/dim_factory.csv'    CSV HEADER;
+COPY dim_department FROM '/absolute/path/data/raw/dim_department.csv' CSV HEADER;
+COPY dim_product    FROM '/absolute/path/data/raw/dim_product.csv'    CSV HEADER;
+COPY dim_machine    FROM '/absolute/path/data/raw/dim_machine.csv'    CSV HEADER;
+COPY dim_employee   FROM '/absolute/path/data/raw/dim_employee.csv'   CSV HEADER;
+COPY fact_production FROM '/absolute/path/data/processed/fact_production.csv' CSV HEADER;
+COPY fact_sales      FROM '/absolute/path/data/processed/fact_sales.csv'      CSV HEADER;
+COPY fact_cost       FROM '/absolute/path/data/raw/fact_cost.csv'             CSV HEADER;
+COPY fact_inventory  FROM '/absolute/path/data/raw/fact_inventory.csv'        CSV HEADER;
