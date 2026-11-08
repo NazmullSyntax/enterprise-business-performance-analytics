@@ -1,0 +1,38 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Database dumps / local DBs
+*.db
+*.sqlite
+*.dump
+*.backup
+
+# Power BI temp/large files (keep only documented .pbix if you choose)
+*.pbix~*
+~$*.pbix
+*.pbit.tmp
+
+# Excel/PowerPoint temp lock files
+~$*.xlsx
+~$*.pptx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated outputs (regenerate with scripts; avoids bloating repo)
+data/raw/*.csv
+data/processed/*.csv
+reports/**/*.xlsx
